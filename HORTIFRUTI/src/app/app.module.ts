@@ -11,7 +11,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import {OrderModule} from 'ngx-order-pipe';
-import { PutProdutoComponent } from './put-produto/put-produto.component'
+import { PutProdutoComponent } from './put-produto/put-produto.component';
+import { DeleteProdutoComponent } from './delete-produto/delete-produto.component'
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PutProdutoComponent } from './put-produto/put-produto.component'
     LojaComponent,
     NavbarComponent,
     FooterComponent,
-    PutProdutoComponent
+    PutProdutoComponent,
+    DeleteProdutoComponent
   ],
   imports: [
     BrowserModule,
