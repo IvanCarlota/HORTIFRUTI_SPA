@@ -7,31 +7,31 @@
 
                 <div class="form-group">
                     <label for="nome" class="text-monospace">Nome:</label>
-                    <input type="text" name="nome" id="titulo" class="form-control" placeholder="Digite seu nome" >
+                    <input type="text" name="nome" id="titulo" class="form-control" placeholder="Digite seu nome" [(ngModel)]="produto.nome">
                 </div>
 
                 <div class="form-group">
                     <label for="preço" class="text-monospace">Preço:</label>
 
-                    <input name="texto" id="preco" cols="30" rows="4" class="form-control"  placeholder="Digite aqui o preço" >
+                    <input name="texto" id="preco" cols="30" rows="4" class="form-control"  placeholder="Digite aqui o preço" [(ngModel)]="produto.preco">
                 </div>
 
 
                 <div class="form-group">
                     <label for="preço" class="text-monospace">Imagem:</label>
 
-                    <input name="texto" id="imagem" cols="30" rows="4" class="form-control"  placeholder="Digite o URL da imagem" >
+                    <input name="texto" id="imagem" cols="30" rows="4" class="form-control"  placeholder="Digite o URL da imagem" [(ngModel)]="produto.imagem">
                 </div>
 
                 <div class="form-group">
                     <label for="preço" class="text-monospace">Quantidade em estoque:</label>
 
-                    <input name="texto" id="quantidade" cols="30" rows="4" class="form-control"  placeholder="Digite aqui o preço" >
+                    <input name="texto" id="quantidade" cols="30" rows="4" class="form-control"  placeholder="Digite aqui o preço" [(ngModel)]="produto.quantidade">
                 </div>
 
                 
                 <div class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-info w-25">Cadastrar</button>
+                    <button type="button" class="btn btn-outline-info w-25" (click)="Cadastrar()">Cadastrar</button>
                 </div>
                 
             </div>

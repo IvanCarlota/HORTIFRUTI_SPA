@@ -12,6 +12,8 @@ export class LojaComponent implements OnInit {
 
   listaProdutos: Produto []
 
+  produto: Produto = new Produto
+
   constructor(private produtoService: ProdutoService) { }
 
   ngOnInit() {
@@ -23,5 +25,13 @@ export class LojaComponent implements OnInit {
       this.listaProdutos = resp
     })
   }
+
+  Cadastrar(){
+    this.produtoService.postProduto(this.produto).subscribe((resp: Produto)=>{
+      this.produto = resp
+      location.assign('/loja')
+    })
+  }
+
 
 }
