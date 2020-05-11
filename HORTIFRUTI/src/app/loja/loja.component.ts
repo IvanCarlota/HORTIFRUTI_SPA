@@ -10,6 +10,9 @@ import { Produto } from '../model/Produto'
 })
 export class LojaComponent implements OnInit {
 
+  key = 'data'
+  reverse = true
+
   listaProdutos: Produto []
 
   produto: Produto = new Produto

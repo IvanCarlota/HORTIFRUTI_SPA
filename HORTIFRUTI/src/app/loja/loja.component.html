@@ -40,7 +40,7 @@
             
             <h3 class="text-monospace text-center mb-4">Bem vindo a nossa loja</h3>
 
-                <div class="card w-25 mb-4" *ngFor="let produto of listaProdutos">
+                <div class="card w-25 mb-4" *ngFor="let produto of listaProdutos | orderBy : key : reverse">
 
                     <div class="card-header"> 
                         <img src="{{ produto.imagem }}" alt="" >
@@ -50,8 +50,8 @@
                     <div class="card-body">
                         <h5 class="card-title"> {{ produto.nome }} </h5> 
                         <p class="card-text">Códido: {{ produto.id }}</p>
-                        <p class="card-text">Preço: R${{ produto.preco }}</p>
-                        <p class="card-text">Quantidade em estoque: {{ produto.quantidade }}</p>
+                        <p class="card-text">Preço: R{{ produto.preco | currency }}</p>
+                        <p class="card-text">Quantidade em estoque: {{ produto.qtdEstoque }}</p>
                   
                     </div>
         
