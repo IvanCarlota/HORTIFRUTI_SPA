@@ -26,7 +26,7 @@
                 <div class="form-group">
                     <label for="preço" class="text-monospace">Quantidade em estoque:</label>
 
-                    <input name="texto" id="quantidade" cols="30" rows="4" class="form-control"  placeholder="Digite aqui o preço" [(ngModel)]="produto.quantidade">
+                    <input name="texto" id="quantidade" cols="30" rows="4" class="form-control"  placeholder="Digite aqui a quantidade" [(ngModel)]="produto.qtdEstoque">
                 </div>
 
                 
@@ -54,6 +54,11 @@
                         <p class="card-text">Quantidade em estoque: {{ produto.qtdEstoque }}</p>
                   
                     </div>
+
+                    <button class="btn btn-outline-info" [routerLink]="['/put-produto', produto.id]" >
+                        Editar
+                    </button>
+
         
                  </div>
 
