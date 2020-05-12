@@ -1,9 +1,20 @@
 <div class="container">
+    <div>
+        <h3 class="text-center mb-4 text-monospace">Editar produto </h3>
+    </div>
     <div class="row mt-5 mb-5">
+        
+        
 
-        <div class="col-md-12">
+        <div class="col-md-4 mt-4">
+            <div class="card" >
+                <img src="{{ produto.imagem }}" alt="" >
+            </div>
+        </div>
+
+        <div class="col-md-8">
             <div>
-                <h3 class="text-center mb-4 text-monospace">Editar produto </h3>
+                
 
                 <div class="form-group">
                     <label for="nome" class="text-monospace">Nome:</label>
@@ -30,8 +41,8 @@
                 </div>
 
                 
-                <div class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-info w-25" (click)="salvar()">Cadastrar</button>
+                <div class="d-flex justify-content-end mb-5 mb-5">
+                    <button type="button" class="btn btn-outline-info w-25" (click)="salvar()">Editar</button>
                 </div>
                 
             </div>
