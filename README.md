@@ -1,6 +1,6 @@
 # HORTIFRUTI_SPA
 
-This project consists of the creation of a SPA for a fruit shop made with Angular Framework in version 9 together with Bootstrap, consuming a JAVA endpoint and bringing products that are in the API to the frontend.
+This project consists of creating a SPA for a fruit shop made with Angular Framework in version 9 and Bootstrap, consuming a JAVA endpoint and bringing products that are in the API to the frontend.
 
 ## Technology 
 
