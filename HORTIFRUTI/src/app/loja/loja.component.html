@@ -26,7 +26,7 @@
                 <div class="form-group">
                     <label for="quantidade" class="text-monospace">Quantidade em estoque:</label>
 
-                    <input name="quantidade" id="quantidade" cols="30" rows="4" class="form-control"  placeholder="Digite aqui a quantidade" [(ngModel)]="produto.qtdEstoque">
+                    <input name="quantidade" id="quantidade" cols="30" rows="4" class="form-control"  placeholder="Digite aqui a quantidade" [(ngModel)]="produto.qtEstoque">
                 </div>
 
                 
@@ -52,7 +52,7 @@
                             <h5 class="card-title"> {{ produto.nome }} </h5> 
                             <p class="card-text">Códido: {{ produto.id }}</p>
                             <p class="card-text">Preço: R{{ produto.preco | currency }}</p>
-                            <p class="card-text">Quantidade em estoque: {{ produto.qtdEstoque }}</p>
+                            <p class="card-text">Quantidade em estoque: {{ produto.qtEstoque }}</p>
                       
                         </div>
                         <div class="row text-center my-3">

@@ -2,61 +2,53 @@
     <div class="row mt-5 mb-5">
 
         <div class="col-md-12">
-            <div> 
+            <div>
                 <h3 class="text-center mb-4 text-monospace">Deletar um produto </h3>
-                
             </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card" >
-                            <img src="{{ produto.imagem }}" alt="" >
+
+            <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{{ produto.imagem }}" alt="1000">
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card">
+
+                        <div class="card-header">
+                            <h5 class="card-title" style="text-align: center;"> {{ produto.nome }} </h5>
                         </div>
-                    </div>
-                    
 
-                    <div class="col-md-8">
-                        <div class="card">
-        
-                            <div class="card-header"> 
-                                <h5 class="card-title"> {{ produto.nome }} </h5> 
-                            </div>
-                
-                            <div class="card-body border:1px">
-                                <p class="card-text">Preço: R{{ produto.preco | currency }}</p>
-                            </div>
-       
-                    </div>
+                        <div class="card-body border:1px">
+                            <p class="card-text" style="text-align: center;">Preço: R{{ produto.preco | currency }}</p>
+                        </div>
 
-                    
-        
-                    
-        
-                </div>
-
-                </div>
-
-                
-
-
-
-
-
-
-
-                <hr class="mt-5 mb-5">
-
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <h5>Tem certeza que deseja apagar esse produto?</h5>
                     </div>
 
                 </div>
-                <div class="row d-flex justify-content-center text-center">
-                    <div class="col-md-12">
-                        <button class="btn btn-outline-success mr-3" (click)="btnSim()">Sim</button>
-                        <button class="btn btn-outline-danger mr-3" (click)="btnNao()">Não</button>
-                    </div>
+
+                <div class="col-md-2"></div>
+
+            </div>
+
+            <hr class="mt-5 mb-5">
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h5>Tem certeza que deseja apagar esse produto?</h5>
                 </div>
+
+            </div>
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-md-12">
+                    <button class="btn btn-outline-success mr-3" (click)="btnSim()">Sim</button>
+                    <button class="btn btn-outline-danger mr-3" (click)="btnNao()">Não</button>
+                </div>
+            </div>
         </div>
     </div>
 

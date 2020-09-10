@@ -11,23 +11,23 @@ export class ProdutoService {
   constructor(private http: HttpClient) { }
 
   getAllProdutos(){
-    return this.http.get('http://31.220.57.121:9080/produtos/')
+    return this.http.get('http://localhost:8080/loja/')
   }
 
   postProduto(produto: Produto){
-    return this.http.post('http://31.220.57.121:9080/produtos/', produto)
+    return this.http.post('http://localhost:8080/loja', produto)
   }
 
   putProduto(produto: Produto){
-    return this.http.put('http://31.220.57.121:9080/produtos/', produto)
+    return this.http.put('http://localhost:8080/loja/', produto)
   }
 
   getByIdProduto(id:number){
-    return this.http.get(`http://31.220.57.121:9080/produtos/${id}`)
+    return this.http.get(`http://localhost:8080/loja/${id}`)
   }
 
   deleteProduto(id:number){
-    return this.http.delete(`http://31.220.57.121:9080/produtos/${id}`)}
+    return this.http.delete(`http://localhost:8080/loja/${id}`)}
 
 
 
