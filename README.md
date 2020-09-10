@@ -24,6 +24,7 @@ run the **npm install** command to install the angular dependencies.
 * To clone the project:
 >    $ git clone https://github.com/IvanCarlota/HORTIFRUTI_SPA/
 
+
 ## Getting started
 
 * Run the project:
@@ -33,16 +34,16 @@ run the **npm install** command to install the angular dependencies.
  ##  Tourism agency:D fictitious
 
 **home page**
-![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/HORTIFRUTI/blob/master/src\assets/public/readme/1.png)
+![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/blob/master/HORTIFRUTI/src/assets/public/readme/1.png)
 
 **store page**
-![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/HORTIFRUTI/blob/master/src\assets/public/readme/2.png)
+![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/blob/master/HORTIFRUTI/src/assets/public/readme/2.png)
 
 **Edit product**
-![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/HORTIFRUTI/blob/master/src\assets/public/readme/3.png)
+![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/blob/master/HORTIFRUTI/src/assets/public/readme/3.png)
 
 **Delete product**
-![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/HORTIFRUTI/blob/master/src\assets/public/readme/4.png)
+![Initial page](https://github.com/IvanCarlota/HORTIFRUTI_SPA/blob/master/HORTIFRUTI/src/assets/public/readme/4.png)
 
 ## Links
   
